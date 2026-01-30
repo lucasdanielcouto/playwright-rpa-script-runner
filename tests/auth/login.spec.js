@@ -4,7 +4,7 @@ import { LoginPage } from '../../pages/LoginPage.js';
 test('It should login with invalid password', async ({ page }) => {
     const loginPage = new LoginPage(page);
     await loginPage.acess();
-    await loginPage.login(process.env.EMAIL, 'senha_invalida');
+    await loginPage.login(process.env.EMAIL, 'invalid_password');
     await loginPage.verifyErrorMessage();
 });
 
