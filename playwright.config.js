@@ -1,14 +1,11 @@
-// @ts-check
 import { defineConfig, devices } from '@playwright/test';
 import dotenv from 'dotenv';
 import { fileURLToPath } from 'url';
 import { dirname, resolve } from 'path';
 
-// Configurar __dirname para ES6 modules
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
-// Carregar variáveis de ambiente
 dotenv.config();
 
 /**
