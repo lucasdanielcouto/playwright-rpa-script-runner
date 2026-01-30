@@ -1,8 +1,8 @@
 import { test, expect } from '@playwright/test';
-import { ScriptsPage } from '../pages/ScriptsPage.js';
+import { ScriptsPage } from '../../pages/ScriptsPage.js';
 
 test.describe('Tests in Scripts Page', () => {
-    let sidebar;
+
 
     test.beforeEach(async ({ page }) => {
         await page.goto('/');

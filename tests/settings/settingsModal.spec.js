@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
-import { LoginPage } from '../pages/LoginPage.js';
-import { MainPage } from '../pages/MainPage.js';
-import { SettingsModal } from '../pages/SettingsModal.js';
+import { LoginPage } from '../../pages/LoginPage.js';
+import { MainPage } from '../../pages/MainPage.js';
+import { SettingsModal } from '../../pages/SettingsModal.js';
 
 test.describe('Tests in Settings Modal', () => {
     let sidebar;
